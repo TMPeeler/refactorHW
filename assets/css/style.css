@@ -143,7 +143,7 @@ so I'm not changing this for now */
     max-width: 150px;
 }
 */
-.factoids{
+.factoids {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -151,7 +151,7 @@ so I'm not changing this for now */
     background-color: #0072bb;
     color: #ffffff;
 }
-/* these are dupes and we dont need them
+/* these are duplicates so we shouldn't need
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -170,23 +170,23 @@ so I'm not changing this for now */
     color: #ffffff;
 }
 */
-.search-engine-optimization img {
+.factoids img {
+    max-height: 200px;
+}
+/*
+.factoids img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+.factoids img {
     max-height: 200px;
 }
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+*/
+.factoids h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -196,7 +196,7 @@ so I'm not changing this for now */
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+*/
 .footer {
     padding: 30px;
     clear: both;
