@@ -59,6 +59,7 @@ p {
     background-position: center;
 }
 
+/* the float left and float right allows the 3 pictures to appear on their respective side of their identified class */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -67,7 +68,7 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
+} 
 
 .content {
     width: 75%;
