@@ -127,7 +127,7 @@ so I'm not changing this for now */
     text-align: center;
 }
 */
-
+/* a mistake that i originally made here was not also adding img to this style where the other ones DID have it before*/
 .benefit3 img {
     display: block;
     margin: 10px auto;
@@ -207,7 +207,8 @@ so I'm not changing this for now */
     text-align: center;
     font-size: 20px;
 }
-
+/* does nothing so i took it out after i added the properties to its other pre-existing classes
 .footer h2 {
-    
+    used to have font size 20px in it but i made an h2 tag instead so that I could edit that if I wanted
 }
+*/
