@@ -45,6 +45,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* text-align: left; if you want the p tags to work*/
 
 p {
     font-size: 16px;
@@ -91,8 +92,8 @@ so I'm not changing this for now */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
 }
-
-.benefit {
+/* fka benefit lead*/
+.benefit1 {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -107,11 +108,12 @@ so I'm not changing this for now */
     color: #ffffff;
 }
 */
-.benefit-lead h3 {
+/* fka benefit-lead h3 add h3*/
+.benefit2 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*these all do the same thing as well
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -121,13 +123,14 @@ so I'm not changing this for now */
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
-.benefit-lead img {
+.benefit3 img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -139,8 +142,8 @@ so I'm not changing this for now */
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
+*/
+.factoids{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -148,7 +151,7 @@ so I'm not changing this for now */
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* these are dupes and we dont need them
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -166,7 +169,7 @@ so I'm not changing this for now */
     background-color: #0072bb;
     color: #ffffff;
 }
-
+*/
 .search-engine-optimization img {
     max-height: 200px;
 }
