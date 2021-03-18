@@ -49,8 +49,9 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero {
+/* changed this hero class to an ID because it's only used one time for an image. Could also be changed to an ID so that the 
+HTML can define the picture using the ID but I thought it was more efficient to leave this here instead.*/
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -69,10 +70,14 @@ p {
     float: right;
     margin-left: 25px;
 } 
+/* ^^^ a possible solution to the above that doesn't require 2 different classes would be to make the second picture an ID 
+but because we may want to add more pictures or another section later I'm going to leave the float right class there */
 
+/* giving the 3 small paragraph sections a proper margin and displaying them this way allows the page to look neat
+so I'm not changing this for now */
 .content {
     width: 75%;
-    display: inline-block;
+    display: inline-block; 
     margin-left: 20px;
 }
 
@@ -84,14 +89,14 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #0072bb;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* these all do the same thing
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,7 +106,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
